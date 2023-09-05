@@ -18,7 +18,7 @@ function addTask() {
   console.log('Tarea añadida.');
 }
 
-// Función para eliminar una tarea
+// Función para eliminar una tarea2
 function deleteTask() {
   showTasks();
   const index = readline.questionInt('Escribe el número de la tarea que deseas eliminar: ') - 1;
